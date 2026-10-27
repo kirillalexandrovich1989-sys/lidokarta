@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Конфиденциальность и условия — Лидокарта</title>
+  <meta name="description" content="Как Лидокарта хранит данные и на каких условиях её можно использовать.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/lidokarta/assets/icon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <link rel="stylesheet" href="/lidokarta/assets/base.css">
+  <style>
+    main { max-width: 720px; margin: 0 auto; padding: var(--s-700) var(--s-300) var(--s-900); display: flex; flex-direction: column; gap: var(--s-300); }
+    h1 { font-size: 36px; line-height: 40px; }
+    h2 { font-size: 24px; line-height: 32px; margin-top: var(--s-400); }
+    p, li { color: var(--muted); }
+    ul { margin: 0; padding-left: var(--s-300); display: flex; flex-direction: column; gap: var(--s-75); }
+    .back { color: var(--muted); text-decoration: none; display: inline-flex; align-items: center; gap: var(--s-50); font-size: 14px; line-height: 20px; transition: color 300ms var(--ease); }
+    .back:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="/lidokarta/"><i class="ph ph-arrow-left"></i>На главную</a>
+    <h1>Конфиденциальность</h1>
+    <p>Лидокарта работает на компьютере или сервере владельца. Мы не отправляем никуда ни ваши запросы, ни собранные данные.</p>
+    <ul>
+      <li>Результаты поиска хранятся в файле data/parser.db на том же компьютере, где запущен парсер.</li>
+      <li>Для входа используется одна cookie с подписанным сроком действия сессии. Рекламных и аналитических cookie нет.</li>
+      <li>Пароль хранится в settings.json. Смена пароля завершает все открытые сессии.</li>
+      <li>Чтобы удалить данные, удалите поиск в истории или файл data/parser.db целиком.</li>
+    </ul>
+
+    <h2 id="terms">Условия использования</h2>
+    <p>Парсер собирает только публичные сведения из карточек организаций и с их сайтов.</p>
+    <ul>
+      <li>Правила 2ГИС, Яндекс Карт и Google Maps ограничивают автоматический сбор. Сайты могут показывать капчу или временно ограничивать доступ. Ответственность за использование несёт владелец копии.</li>
+      <li>Для рекламных рассылок по собранным контактам действуют законы о рекламе и о персональных данных. Не используйте базу для спама.</li>
+      <li>Программа распространяется как есть, без гарантий. Логика 2ГИС основана на проекте parser 2gis под лицензией LGPLv3.</li>
+    </ul>
+  </main>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Лидокарта — база клиентов из 2ГИС, Яндекс Карт и Google Maps</title>
+  <meta name="description" content="Введите нишу и город: Лидокарта соберёт компании с трёх карт, найдёт телефоны, сайты, почту и мессенджеры, уберёт повторы и отдаст таблицу Excel.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Лидокарта — база клиентов с трёх карт">
+  <meta property="og:description" content="Телефоны, сайты, почта и мессенджеры компаний из 2ГИС, Яндекс Карт и Google Maps в одной таблице.">
+  <meta property="og:image" content="/lidokarta/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/lidokarta/assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/lidokarta/assets/icon-192.png">
+  <link rel="manifest" href="/lidokarta/manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <link rel="stylesheet" href="/lidokarta/assets/base.css">
+  <link rel="stylesheet" href="/lidokarta/assets/landing.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Основная навигация">
+      <a class="logo" href="/lidokarta/" aria-current="page">
+        <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M32 8c-9.4 0-17 7.4-17 16.6C15 37 32 56 32 56s17-19 17-31.4C49 15.4 41.4 8 32 8z" fill="currentColor"/><circle cx="32" cy="25" r="6.5" fill="#CDF464"/></svg></span>
+        Лидокарта
+      </a>
+      <div class="nav-links">
+        <a href="#benefits">Возможности</a>
+        <a href="#how">Как это работает</a>
+        <a href="#faq">Вопросы</a>
+      </div>
+      <a class="btn btn-primary btn-sm nav-cta" href="https://designer-very-ensures-acknowledged.trycloudflare.com/app">Войти</a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <a href="#benefits">Возможности</a>
+    <a href="#how">Как это работает</a>
+    <a href="#faq">Вопросы</a>
+    <a class="btn btn-primary" href="https://designer-very-ensures-acknowledged.trycloudflare.com/app">Открыть парсер</a>
+  </div>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot dot-2gis"></span><span class="dot dot-yandex"></span><span class="dot dot-google"></span>2ГИС, Яндекс Карты и Google Maps</p>
+        <h1 class="hero-title">Соберите базу клиентов<br>с трёх карт за пару минут</h1>
+        <p class="hero-sub text-lg">Напишите нишу и город. Лидокарта найдёт компании, соберёт телефоны, сайты, почту и&nbsp;мессенджеры, уберёт повторы и&nbsp;отдаст готовую таблицу Excel.</p>
+        <p class="text-sm muted">Поиск компаний доступен, пока компьютер владельца онлайн.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://designer-very-ensures-acknowledged.trycloudflare.com/app"><i class="ph ph-magnifying-glass"></i>Открыть парсер</a>
+        </div>
+        <p class="hero-proof text-sm muted"><i class="ph ph-timer"></i>Наш тест: 25 стоматологий Москвы из Google Maps за 7 секунд, вместе с телефонами</p>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Пример интерфейса парсера" role="img">
+        <div class="mock">
+          <div class="mock-bar">
+            <div class="mock-input"><i class="ph ph-magnifying-glass"></i>автосервис</div>
+            <div class="mock-input mock-city"><i class="ph ph-map-pin"></i>Казань</div>
+            <div class="mock-btn">Найти компании</div>
+          </div>
+          <div class="mock-progress">
+            <span><span class="dot dot-2gis"></span>2ГИС <b class="num">118</b></span>
+            <span><span class="dot dot-yandex"></span>Яндекс <b class="num">96</b></span>
+            <span><span class="dot dot-google"></span>Google <b class="num">87</b></span>
+          </div>
+          <ul class="mock-list">
+            <li><div><b>Автотехцентр «Камский»</b><span>ул. Технологическая, 17</span></div><span class="mock-phone num">+7 843 212-48-07</span><span class="mock-src"><span class="dot dot-2gis"></span><span class="dot dot-yandex"></span></span></li>
+            <li><div><b>Гараж 116</b><span>Проспект Победы, 139 к3</span></div><span class="mock-phone num">+7 917 391-02-63</span><span class="mock-src"><span class="dot dot-2gis"></span><span class="dot dot-google"></span></span></li>
+            <li><div><b>Вольтаж, электрика авто</b><span>ул. Мусина, 59б</span></div><span class="mock-phone num">+7 843 258-71-19</span><span class="mock-src"><span class="dot dot-yandex"></span></span></li>
+            <li><div><b>Шиномонтаж на Восстания</b><span>ул. Восстания, 100</span></div><span class="mock-phone num">+7 987 006-35-41</span><span class="mock-src"><span class="dot dot-2gis"></span><span class="dot dot-yandex"></span><span class="dot dot-google"></span></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="section container reveal" id="benefits" aria-labelledby="benefits-title">
+      <h2 class="section-title" id="benefits-title">Что вы получаете<br>с каждого запуска</h2>
+      <div class="benefits">
+        <article class="card">
+          <i class="ph ph-stack card-icon"></i>
+          <h3 class="text-xl">Три карты за один запуск</h3>
+          <p class="muted">2ГИС, Яндекс Карты и Google Maps ищут одновременно, каждый в своём окне браузера.</p>
+        </article>
+        <article class="card">
+          <i class="ph ph-address-book card-icon"></i>
+          <h3 class="text-xl">Контакты, а не только названия</h3>
+          <p class="muted">Телефоны, сайт, почта, WhatsApp, Telegram и ВКонтакте лежат в отдельных колонках.</p>
+        </article>
+        <article class="card">
+          <i class="ph ph-intersect card-icon"></i>
+          <h3 class="text-xl">Одна компания, одна строка</h3>
+          <p class="muted">Клиника, найденная на трёх картах, склеивается в одну запись по телефону и адресу.</p>
+        </article>
+        <article class="card">
+          <i class="ph ph-device-mobile card-icon"></i>
+          <h3 class="text-xl">Работает с телефона</h3>
+          <p class="muted">Откройте ссылку, добавьте на главный экран и звоните прямо из списка одним касанием.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Tagline reveal -->
+    <section class="tagline container" aria-label="Главное">
+      <p class="tagline-text" data-words>Тратьте время на звонки, а&nbsp;не&nbsp;на&nbsp;поиск номеров. Таблица соберётся сама, пока вы&nbsp;пьёте кофе.</p>
+    </section>
+
+    <!-- How it works -->
+    <section class="section container reveal" id="how" aria-labelledby="how-title">
+      <h2 class="section-title" id="how-title">Три шага<br>до готовой базы</h2>
+      <ol class="steps">
+        <li class="step">
+          <span class="step-num num">1</span>
+          <h3 class="text-xl">Напишите, кого ищете</h3>
+          <p class="muted">«Стоматология», «автосервис», «кофейня» и город. Подсказки по городам появятся сами.</p>
+        </li>
+        <li class="step">
+          <span class="step-num num">2</span>
+          <h3 class="text-xl">Выберите карты и лимит</h3>
+          <p class="muted">До 500 компаний с каждого источника. Почту с сайтов компаний найдём отдельно.</p>
+        </li>
+        <li class="step">
+          <span class="step-num num">3</span>
+          <h3 class="text-xl">Скачайте Excel</h3>
+          <p class="muted">Фильтр, кликабельные ссылки и номера в одном формате +7. Или работайте прямо в списке.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Proof -->
+    <section class="section container reveal" aria-labelledby="proof-title">
+      <h2 class="section-title" id="proof-title">Проверено на живом запросе</h2>
+      <p class="section-sub muted">Запрос «стоматология», Москва, 27 октября 2026. Обычный домашний интернет, браузер в фоне.</p>
+      <div class="stats">
+        <div class="stat"><span class="stat-value num">25 за 7 с</span><span class="muted text-sm">Google Maps, вместе с телефонами и сайтами</span></div>
+        <div class="stat"><span class="stat-value num">15 за 18 с</span><span class="muted text-sm">2ГИС, с почтой, WhatsApp и ВКонтакте из карточек</span></div>
+        <div class="stat"><span class="stat-value num">25 сразу</span><span class="muted text-sm">Яндекс Карты, первая порция без прокрутки</span></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section container reveal" id="faq" aria-labelledby="faq-title">
+      <h2 class="section-title" id="faq-title">Частые вопросы</h2>
+      <div class="faq">
+        <details>
+          <summary>Нужно ставить приложение на телефон?<i class="ph ph-plus"></i></summary>
+          <p>Нет. Парсер открывается в браузере по ссылке. Если хотите иконку на главном экране, нажмите «Добавить на главный экран» в меню браузера.</p>
+        </details>
+        <details>
+          <summary>Сколько компаний можно собрать за раз?<i class="ph ph-plus"></i></summary>
+          <p>До 500 с каждого источника, то есть до 1500 записей за запуск. После склейки повторов строк обычно остаётся меньше.</p>
+        </details>
+        <details>
+          <summary>Откуда берётся почта?<i class="ph ph-plus"></i></summary>
+          <p>Из карточек 2ГИС и с сайтов компаний: парсер читает главную страницу и страницу контактов. Google и Яндекс почту в карточках не показывают.</p>
+        </details>
+        <details>
+          <summary>Почему иногда появляется капча?<i class="ph ph-plus"></i></summary>
+          <p>Карты защищаются от автоматического сбора. Парсер сам перезапускает браузер и нажимает «Я не робот». Если капча не уходит, подождите 10–15 минут или включите видимый режим браузера и решите её вручную.</p>
+        </details>
+        <details>
+          <summary>Где хранятся результаты?<i class="ph ph-plus"></i></summary>
+          <p>На компьютере, где запущен парсер, в файле data/parser.db. Вся история поисков доступна в интерфейсе, любой старый поиск можно снова скачать.</p>
+        </details>
+        <details>
+          <summary>Кто может открыть парсер по ссылке?<i class="ph ph-plus"></i></summary>
+          <p>Только тот, кто знает пароль. После восьми неверных попыток вход с этого адреса блокируется на 10 минут.</p>
+        </details>
+        <details>
+          <summary>Это законно?<i class="ph ph-plus"></i></summary>
+          <p>Парсер собирает только публичные данные из карточек организаций. Учтите, что правила карт запрещают автоматический сбор, а для рассылок действуют законы о рекламе и персональных данных. Используйте базу для звонков и личных предложений, а не для спама.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final container reveal" aria-labelledby="final-title">
+      <h2 class="final-title" id="final-title">Первая сотня клиентов<br>уже на картах</h2>
+      <p class="muted text-lg">Бесплатно, без подписки. Всё работает на вашем компьютере.</p>
+      <a class="btn btn-primary" href="https://designer-very-ensures-acknowledged.trycloudflare.com/app"><i class="ph ph-magnifying-glass"></i>Открыть парсер</a>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span class="muted text-sm">© 2026 Лидокарта</span>
+    <nav class="footer-links text-sm" aria-label="Документы">
+      <a href="/lidokarta/privacy.html">Конфиденциальность</a>
+      <a href="/lidokarta/privacy.html#terms">Условия использования</a>
+    </nav>
+  </footer>
+
+  <script src="/lidokarta/assets/landing.js" defer></script>
+</body>
+</html>
